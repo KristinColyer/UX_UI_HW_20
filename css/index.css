@@ -1,10 +1,292 @@
-body {
-  height: 5000px;
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #8F00FF;
+  overflow: hidden;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 3px;
+  margin-bottom: 10%;
 }
-.nav {
-  background-color: yellow;
-  list-style-type: none;
-  text-align: center; 
-  padding: 0;
-  margin: 0;
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  margin: 1px;
+  margin-right: 15px;;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  
+  color: #FFFFFF;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: fit-content;
+
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: white;
+  color: #8F00FF;
+  
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+h1 {
+  font-family: Gothic A1;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  font-size: 24px;
+  max-width: 60ch;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+h2 {
+  font-family: Gothic A1;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  font-size: 24px;
+  max-width: 60ch;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+.research {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.imgnav {
+  margin-top: 5%;
+}
+.overview {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.overviewt {
+  margin-top: 5%;
+  font-size: 26px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.steps {
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  font-size: 28px;
+}
+.myprogress {
+  min-width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  }
+  .myprogress .circle,
+  .myprogress .bar {
+  display: inline-block;
+  background: #fff;
+  width: 100px; 
+  height: 100px;
+  border-radius: 80px;
+  border: 1px solid #d5d5da;
+  }
+  .myprogress .bar {
+  position: relative;
+  width: 80px;
+  height: 2px;
+  top: -5px;
+  border: 0px solid #d5d5da;
+  background:#000;
+  }
+  .myprogress .circle .label {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 30px;
+  border-radius: 40px;
+  font-size: 24px;
+  }
+  .myprogress .circle .title {
+  color: #b5b5ba;
+  font-size: 22px;
+  line-height: 100px;
+  }
+  .step1 p {
+    font-size: 24px;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+  .step2 p {
+    font-size: 24px;
+    margin-left: 20%;
+    margin-top: 7.5%;
+  }
+
+  .step3 p {
+    font-size: 24px;
+    margin-left: 20%;
+    margin-top: 7.5%;
+  }
+  .step4 p {
+    font-size: 24px;
+    margin-left: 20%;
+    margin-top: 7.5%;
+  }
+#display {
+ margin-left: 30%;
+ margin-right: 7.5%;
+}
+.carousel img {
+  width: 100%;
+}   
+.mb-5 {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.synth {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.mb-4 {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.iter {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.mb-3 {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.solution {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.mb-2 {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+}
+
